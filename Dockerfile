@@ -11,3 +11,4 @@ RUN apt-get update && \
 
 RUN curl --silent --show-error https://getcomposer.org/installer | php
         
+RUN composer require michelf/php-markdown
